@@ -14,7 +14,7 @@ This rep is the code for the first seasonal reanalysis dataset over the last mil
 
 ## Authors
 
-Zilu Meng; Gregory J. Hakim; Eric J. Steig
+[Zilu Meng](https://github.com/ZiluM/LMR_Seasonal); Gregory J. Hakim; Eric J. Steig
 
 ## Abstract
 
