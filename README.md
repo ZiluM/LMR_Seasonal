@@ -38,6 +38,27 @@ This repo is the code for the first seasonal reanalysis dataset over the last mi
 [./OBS]: The code for the observation operator (Proxy System Model).
 
 
+## Quick Start
+
+### 1. Install the required packages
+
+Following the file `requirements.txt` to install the required packages. Attention that the `slim` package is not available in the PyPI, you need to install it manually from the `./slim` folder.
+
+### 2. Calibrate the Proxy System Model
+
+Following the `./OBS/~.ipynb` to calibrate the Proxy System Model.
+
+### 3. Train the Linear Inverse Model
+
+Use the `./LIM/main_lim.py` to train the linear inverse model.
+
+### 4. Data Assimilation
+
+Use the `./DA/da.py` to run the data assimilation.
+
+
+
+
 
 
 
