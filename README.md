@@ -60,11 +60,11 @@ Following the `./OBS/~.ipynb` to calibrate the Proxy System Model.
 
 ### 3. Train the Linear Inverse Model
 
-Use the `./LIM/main_lim.py` to train the linear inverse model.
+Use the `./LIM/main_lim.py` to train the linear inverse model. Following the `*.yml` to set the hyperparameters.
 
 ### 4. Data Assimilation
 
-Use the `./DA/da.py` to run the data assimilation.
+Use the `./DA/da.py` to run the data assimilation. Following the `sub.sh` and `*.yml` to set the hyperparameters.
 
 
 ## Citation
