@@ -4,7 +4,7 @@ Paper: [**<mark>Arxiv</mark>**](https://arxiv.org/abs/2501.14130)
 
 ## Authors
 
-[Zilu Meng](https://github.com/ZiluM/LMR_Seasonal); Gregory J. Hakim; Eric J. Steig
+[Zilu Meng](https://zilum.github.io); Gregory J. Hakim; Eric J. Steig
 
 
 ## Introduction
