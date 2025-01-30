@@ -29,9 +29,9 @@ This repo is the code for the first seasonal reanalysis dataset `LMR Seasonal` o
 
 ## Code Structure
 
-[./DA]: The main code for the data assimilation. 
+[./DA]: The main code for the data assimilation. Following `sub.sh`  and `*.yml` to run the data assimilation. 
 
-[./LIM]: The code for the linear inverse model.
+[./LIM]: The code for the linear inverse model. 
 
 [./slim]: The code for utilites.
 
