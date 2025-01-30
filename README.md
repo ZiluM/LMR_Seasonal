@@ -16,8 +16,11 @@ This repo is the code for the first seasonal reanalysis dataset over the last mi
 ## Code Structure
 
 [./DA]: The main code for the data assimilation. 
+
 [./LIM]: The code for the linear inverse model.
+
 [./slim]: The code for utilites.
+
 [./OBS]: The code for the observation operator (Proxy System Model).
 
 
