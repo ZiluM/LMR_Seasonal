@@ -63,6 +63,20 @@ Use the `./LIM/main_lim.py` to train the linear inverse model.
 Use the `./DA/da.py` to run the data assimilation.
 
 
+## Citation
+
+If you use the code in your research, please cite the paper:
+
+```
+@article{meng2025coupled,
+  title={Coupled Seasonal Data Assimilation of Sea Ice, Ocean, and Atmospheric Dynamics over the Last Millennium},
+  author={Meng, Zilu and Hakim, Gregory J. and Steig, Eric J.},
+  journal={arXiv preprint arXiv:2501.14130},
+  year={2025}
+}
+```
+
+
 
 
 
