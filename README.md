@@ -2,6 +2,10 @@
 
 Paper: [**<mark>Arxiv</mark>**](https://arxiv.org/abs/2501.14130)
 
+## Authors
+
+[Zilu Meng](https://github.com/ZiluM/LMR_Seasonal); Gregory J. Hakim; Eric J. Steig
+
 
 ## Introduction
 
@@ -11,7 +15,10 @@ This repo is the code for the first seasonal reanalysis dataset over the last mi
 
 <!-- For example, the lower figure shows the Nino3.4 Index (a measure of El Niño and Southern Oscillation) from the our reanalysis comparing with the HadISST dataset. The reanalysis dataset can provide a accurate ENSO variability for the last millennium. In this case, we can study the ENSO variability in the past and compare it with the present. Additionally, the reanalysis dataset can also be used to study the climate change in the past and compare it with the present. -->
  
-![intro](./figures/dacycle.png)
+<div style="text-align: center;">
+    <img src="./figures/dacycle.png" alt="intro" width="50%">
+</div>
+
 
 <!-- ![intro](./figures/Nino34_compare_HadISST.png) -->
 
@@ -27,8 +34,6 @@ This repo is the code for the first seasonal reanalysis dataset over the last mi
 
 
 
-## Authors
 
-[Zilu Meng](https://github.com/ZiluM/LMR_Seasonal); Gregory J. Hakim; Eric J. Steig
 
 
