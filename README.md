@@ -1,4 +1,4 @@
-# Code for "Coupled Seasonal Data Assimilation of Sea Ice, Ocean, and Atmospheric Dynamics over the Last Millennium"
+#  Last Millennium Reanalysis Seasonal: "Coupled Seasonal Data Assimilation of Sea Ice, Ocean, and Atmospheric Dynamics over the Last Millennium"
 
 Paper: [**<mark>Arxiv</mark>**](https://arxiv.org/abs/2501.14130)
 
