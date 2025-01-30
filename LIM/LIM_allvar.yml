@@ -1,0 +1,61 @@
+name: LIM_allvar
+type: LIM
+version: 3.0
+description: Linear Inverse Model for prediction; Build on CCSM4; Test on MPI-ESM-P
+main_path: /glade/derecho/scratch/zilumeng/SI_recon/ERES/lim/
+
+
+# dir_path
+
+build_dir: '/glade/derecho/scratch/zilumeng/CMIP_LM/CCSM4/season_eof1/'
+verify_dir: '/glade/derecho/scratch/zilumeng/CMIP_LM/MPI-ESM-P/season/'
+verify_number: [0,4000]
+lead_time: 4
+area_path: ""
+
+vars_info:
+  tas:
+    domain: global
+    name: 2m temperature
+    file_name: tas.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_tas_Amon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  ohc300:
+    domain: global
+    name: 300m ocean heat content
+    file_name: ohc300.pkl
+    num: 30
+    verify_name: anom_remap2x2_remap2x2_ohc300_Omon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  tos:
+    domain: global
+    name: sea surface temperature
+    file_name: tos.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_tos_Omon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  sic:
+    domain: NH
+    name: sea ice concentration
+    file_name: sic_NH.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_sic_OImon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  sit:
+    domain: NH
+    name: sea ice thickness
+    file_name: sit_NH.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_sit_OImon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  psl:
+    domain: global
+    name: sea level pressure
+    file_name: psl.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_psl_Amon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+  z500:
+    domain: global
+    name: geopotential height at 500hPa
+    file_name: z500.pkl
+    num: 15
+    verify_name: anom_remap2x2_remap2x2_z500_Amon_MPI-ESM-P_past1000_r1i1p1_085001-184912.nc
+
+
+
