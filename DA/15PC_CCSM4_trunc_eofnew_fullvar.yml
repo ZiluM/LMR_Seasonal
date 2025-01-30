@@ -1,0 +1,109 @@
+name: CCSM4_eofnew_15PC_800_fullvar
+main_path: /glade/derecho/scratch/zilumeng/SI_recon/RES/da/
+lim_config: /glade/derecho/scratch/zilumeng/SI_recon/RES/lim/LIM_allvar_full/config.yml
+start_time: 800-01
+da_length: 14412 # months
+da_step: 3 # months
+save_step: 60 # months
+ens_num: 800
+anom_period: [1951,1980]
+restart: False
+restart_time: latest
+
+# ========== OBS ==========
+
+obs_path : /glade/derecho/scratch/zilumeng/SI_recon/OBS/ann_obs/data/CCSM15PC_annual.pkl
+mask_seed: 0
+mask_rate: 0.0001
+pseudo: False
+
+# ========== Recon ==========
+Index_verify_path: /glade/derecho/scratch/zilumeng/CMIP_LM/OBS/Index/
+Pattern_verify_path: /glade/derecho/scratch/zilumeng/CMIP_LM/OBS/season/
+Index_show_period: [1800,2001]
+
+Indexs:
+  Nino34:
+    var: tos
+    verify: Nino34.nc
+    compare_period: [1920,2000]
+  # Nino1+2:
+  #   var: tos
+  #   verify: Nino1+2.nc
+  #   compare_period: [1930,2000]
+  # Nino3: 
+  #   var: tos
+  #   verify: Nino3.nc
+  #   compare_period: [1930,2000]
+  # Nino4:
+  #   var: tos
+  #   verify: Nino4.nc
+  #   compare_period: [1930,2000]
+  SIE:
+    var: sic
+    mean_path: /glade/derecho/scratch/zilumeng/CMIP_LM/MPI-ESM-P/season/sic_season_mean.nc
+    verify: SIE.nc
+    time_reselution: year
+  NH-Temp:
+    var: tas
+    verify: NH-Temp.nc
+    compare_period: [1900,2000]
+  SH-Temp:
+    var: tas
+    verify: SH-Temp.nc
+    compare_period: [1900,2000]
+  GMT:
+    var: tas
+    verify: GMT.nc
+    compare_period: [1900,2000]
+  # IOD:
+  #   var: tos
+  #   verify: IOD.nc
+  #   compare_period: [1930,2000]
+  GMOHC:
+    var: ohc300
+    verify: None
+  # WPI:
+  #   var: tos
+  #   verify: WPI.nc
+  #   compare_period: [1930,2000]
+  IOBW:
+    var: tos
+    verify: IOBW.nc
+    compare_period: [1930,2000]
+
+# ========== Verify ==========
+
+Patterns: 
+  tos:
+    verify: HadISST_2x2_DE.nc
+    alias: sst
+    compare_period: [1880,1999]
+    domain: global
+  tas: 
+    verify: HadCRUT.5.0.2.0.analysis.anomalies.ensemble_mean.2x2.nc
+    alias: tas_mean
+    compare_period: [1880,2000]
+    domain: global
+
+  sic: 
+    verify: seaice_nh_197811-202309.2x2.nc
+    alias: cdr_seaice_conc_monthly
+    mean_path: /glade/derecho/scratch/zilumeng/CMIP_LM/MPI-ESM-P/season/sic_season_mean.nc
+    compare_period: [1979,2000]
+    domain: NH
+
+  ohc300:
+    verify: EN.4.2.2.f.analysis.g10.OHC300.190001-202012.2x2.nc
+    alias: ohc300
+    compare_period: [1940,1999]
+    domain: global
+  
+
+
+
+  
+  
+
+
+
