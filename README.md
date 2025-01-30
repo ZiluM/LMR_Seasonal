@@ -31,7 +31,11 @@ This repo is the code for the first seasonal reanalysis dataset `LMR Seasonal` o
 
 [./DA]: The main code for the data assimilation. Following `sub.sh`  and `*.yml` to run the data assimilation. 
 
-[./LIM]: The code for the linear inverse model. 
+[./LIM]: The code for the linear inverse model. Following `main_lim.py` and `*.yml` to train the linear inverse model.
+
+[./OBS]: The code for the observation operator (Proxy System Model). Following `~.ipynb` to calibrate the Proxy System Model.
+
+[./utils]: The code for utilites.
 
 [./slim]: The code for utilites.
 
