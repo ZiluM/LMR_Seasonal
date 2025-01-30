@@ -79,27 +79,6 @@ If you use the code in your research, please cite the paper:
   year={2025}
 }
 
-@article{meng2024reconstructing,
-  title={Reconstructing the tropical Pacific upper ocean using online data assimilation with a deep learning model},
-  author={Meng, Zilu and Hakim, Gregory J},
-  journal={Journal of Advances in Modeling Earth Systems},
-  volume={16},
-  number={11},
-  pages={e2024MS004422},
-  year={2024},
-  publisher={Wiley Online Library}
-}
-
-@inproceedings{meng2023sacpy,
-  title={Sacpy-A Python Package for Statistical Analysis of Climate},
-  author={Meng, Zilu and Zhu, Feng and Hakim, Gregory J},
-  booktitle={Agu fall meeting abstracts},
-  volume={2023},
-  number={1252},
-  pages={PP13D--1252},
-  year={2023}
-}
-
 ```
 
 
