@@ -40,6 +40,12 @@ This repo is the code for the first seasonal reanalysis dataset `LMR Seasonal` o
 
 ## Quick Start
 
+### 0. clone the repo
+
+```bash
+git clone git@github.com:ZiluM/LMR_Seasonal.git 
+```
+
 ### 1. Install the required packages
 
 Following the file `requirements.txt` to install the required packages. Attention that the `slim` package is not available in the PyPI, you need to install it manually from the `./slim` folder.
