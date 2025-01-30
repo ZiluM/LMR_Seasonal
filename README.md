@@ -89,6 +89,17 @@ If you use the code in your research, please cite the paper:
   year={2024},
   publisher={Wiley Online Library}
 }
+
+@inproceedings{meng2023sacpy,
+  title={Sacpy-A Python Package for Statistical Analysis of Climate},
+  author={Meng, Zilu and Zhu, Feng and Hakim, Gregory J},
+  booktitle={Agu fall meeting abstracts},
+  volume={2023},
+  number={1252},
+  pages={PP13D--1252},
+  year={2023}
+}
+
 ```
 
 
